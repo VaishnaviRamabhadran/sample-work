@@ -169,30 +169,7 @@ section {
   text-decoration: none;
   font-size: 1em;
 }
-.mac {
-  position: relative;
 
-  z-index: 5;
-}
-.imac,
-.ipad {
-  margin-left: -100px;
-  z-index: 1;
-}
-
-.iphone {
-  position: absolute;
-  overflow: hidden;
-  z-index: 3;
-  margin-left: -50px;
-  /* margin-bottom: -30px; */
-  margin-top: 230px;
-}
-
-.mini {
-  margin-left: 10px;
-  z-index: 2;
-}
 .section4 {
   padding-top: 120px;
   padding-bottom: 100px;
@@ -250,7 +227,43 @@ footer {
   clear: both;
   padding: 50px;
 }
-.asset > img {
+
+.asset {
+  position: relative;
   overflow: hidden;
-  margin-bottom: -30px;
+  height: 400px;
+  width: 900px;
+}
+
+.image {
+  position: absolute;
+}
+
+.image-1 {
+  top: 200px;
+  z-index: 3;
+}
+
+.image-2 {
+  top: 25px;
+  left: 150px;
+  z-index: 2;
+}
+
+.image-3 {
+  top: 180px;
+  left: 500px;
+  z-index: 4;
+}
+
+.image-4 {
+  top: 280px;
+  left: 630px;
+  z-index: 6;
+}
+
+.image-5 {
+  top: 260px;
+  left: 690px;
+  z-index: 5;
 }
