@@ -109,7 +109,7 @@ section {
   height: 100%;
   float: left;
   background: green;
-  box-sizing: border-box; /* so the borders don't mess up the alignment */
+  box-sizing: border-box;
 }
 .button {
   display: inline-flex;
