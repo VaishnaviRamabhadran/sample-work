@@ -147,6 +147,7 @@ section {
 }
 .align-text {
   padding-left: 800px;
+  margin-bottom: -160px;
 }
 .sub-text {
   margin-right: 50px;
